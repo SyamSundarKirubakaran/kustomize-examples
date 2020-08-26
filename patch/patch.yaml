@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: the-deployment
+spec:
+  template:
+    containers:
+      - name: the-container
+        image: registry/conatiner:1.0.0

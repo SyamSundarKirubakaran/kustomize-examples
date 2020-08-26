@@ -1,0 +1,8 @@
+resources:
+- deployments.yaml
+
+patches:
+- target:
+    kind: Deployment
+    name: the-deployment
+  path: patchjson.json

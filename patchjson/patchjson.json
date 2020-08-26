@@ -1,0 +1,3 @@
+[
+   {"op": "replace", "path": "/spec/template/containers/0/image", "value": "registry/conatiner:1.0.0"}
+]
