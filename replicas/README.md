@@ -1,3 +1,5 @@
+output:
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -8,3 +10,4 @@ spec:
     containers:
     - image: registry/the-container:latest
       name: the-container
+```
